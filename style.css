@@ -21,3 +21,9 @@ html, body {
     text-align: center;
 }
 
+.event {
+    background-color: #FFF;
+    color: #349D4A;
+    margin-left: 0.5rem;
+    padding: 0 0.5rem;
+}

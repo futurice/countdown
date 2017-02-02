@@ -13,9 +13,13 @@ if (param_1) {
         }
         document.querySelector('.counter').innerHTML = days;
 
-        var textParam = param_2.split('=');
-        if (textParam[0] === 'text' && textParam[1]) {
-            document.querySelector('.event').innerHTML = decodeURIComponent(textParam[1]);
+        var textParam = param_2 && param_2.split('=');
+        if (textParam && textParam[0] === 'text' && textParam[1]) {
+            var header = document.querySelector('.header');
+            var event = document.createElement('span');
+            event.className = 'event';
+            event.innerHTML = decodeURIComponent(textParam[1]);
+            header.appendChild(event);
         }
     }
 }
