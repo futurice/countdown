@@ -31,8 +31,8 @@ html, body {
 .event {
     background-color: #FFF;
     color: #349D4A;
-    margin-left: 0.5rem;
-    padding: 0 0.5rem;
+    margin-left: 1rem;
+    padding: 0 1rem;
 }
 
 .valign {
