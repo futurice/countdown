@@ -7,17 +7,17 @@ html, body {
 .header {
     background-color: #349D4A;
     color: #FFF;
-    font-size: 3rem;
+    font-size: 5rem;
     font-weight: bold;
-    padding: 5rem 0;
+    height: 50vh;
     text-align: center;
 }
 
 .counter {
     color: #349D4A;
-    font-size: 5rem;
+    font-size: 10rem;
     font-weight: bold;
-    padding-top: 5rem;
+    height: 50vh;
     text-align: center;
 }
 
@@ -26,4 +26,10 @@ html, body {
     color: #349D4A;
     margin-left: 0.5rem;
     padding: 0 0.5rem;
+}
+
+.valign {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
