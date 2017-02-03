@@ -4,6 +4,13 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+.logo {
+    position: absolute;
+    width: 150px;
+    right: 1rem;
+    top: 1rem;
+}
+
 .header {
     background-color: #349D4A;
     color: #FFF;
