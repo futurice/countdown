@@ -5,8 +5,8 @@ var param_2 = params[1];
 if (param_1) {
     var dateParam = param_1.split('=');
     if (dateParam[0] === 'date' && dateParam[1]) {
-        var now = moment().startOf('day');
-        var to = moment(dateParam[1], 'YYYY-MM-DD').startOf('day');
+        var now = dayjs().startOf('day');
+        var to = dayjs(dateParam[1]).startOf('day');
         var days = to.diff(now, 'days');
         if (days < 0) {
             days = 0;
