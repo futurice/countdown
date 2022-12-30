@@ -13,7 +13,7 @@ body {
 }
 
 .header {
-    background-color: #349D4A;
+    background-color: #074A41;
     color: #FFF;
     font-size: 5rem;
     font-weight: bold;
@@ -22,7 +22,7 @@ body {
 }
 
 .counter {
-    color: #349D4A;
+    color: #074A41;
     font-size: 10rem;
     font-weight: bold;
     height: 50vh;
@@ -31,7 +31,7 @@ body {
 
 .event {
     background-color: #FFF;
-    color: #349D4A;
+    color: #074A41;
     margin-left: 1rem;
     padding: 0 1rem;
 }
